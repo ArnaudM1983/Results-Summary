@@ -1,1 +1,90 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+body{
+    font-family: Hanken Grotesk;
+}
+
+body p{
+    font-size: 14px;
+}
+
+.carte{
+    border-radius: 40px;
+}
+
+.result{
+    border-radius: 40px;
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));;
+}
+
+.text-lavander{
+    color: hsl(241, 100%, 89%);
+}
+
+.score{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));;
+}
+
+.number{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.of{
+    margin-top: -10px;
+}
+
+.reaction{
+    background-color: rgb(250, 237, 237);
+    border-radius: 10px;
+}
+
+.text-reaction{
+    color: hsl(0, 100%, 67%);
+}
+
+.memory{
+    background-color: hsla(39, 100%, 56%, 0.1);
+    border-radius: 10px;
+}
+
+.text-memory{
+    color: hsl(39, 100%, 56%);
+}
+
+.verbal{
+    background-color: hsla(166, 100%, 37%, 0.1);
+    border-radius: 10px;
+}
+
+.text-verbal{
+    color: hsl(166, 100%, 37%);
+}
+
+.visual{
+    background-color: hsla(234, 85%, 45%, 0.1);
+    border-radius: 10px;
+}
+
+
+.text-visual{
+    color: hsl(234, 85%, 45%);
+}
+
+.button{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 40px;
+}
+
+a:hover{
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));;
+}
